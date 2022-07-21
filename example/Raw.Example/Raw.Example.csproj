@@ -8,14 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="..\..\lib\glfw\glfw3.dll" Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))'">
-            <Link>glfw3.dll</Link>
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <Visible>false</Visible>
-        </Content>
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\..\src\Raw.Native.Glfw\Raw.Native.Glfw.csproj" />
       <ProjectReference Include="..\..\src\Raw.Native.OpenGL\Raw.Native.OpenGL.csproj" />
     </ItemGroup>
