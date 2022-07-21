@@ -1,6 +1,11 @@
-﻿namespace Raw.Example;
+﻿using Serilog;
 
-public class RawExampleApplication
+namespace Raw.Example;
+
+internal sealed class RawExampleApplication : Application
 {
-    
+    public RawExampleApplication(ILogger logger)
+        : base(logger)
+    {
+    }
 }

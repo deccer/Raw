@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D178CCB6-C8B0-4B03-80DC-CBE7F26F108F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{65E6B156-3748-450D-BBEC-9E93AC656DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raw.Native.Glfw", "src\Raw.Native.Glfw\Raw.Native.Glfw.csproj", "{3EE0060C-0D86-4DF7-9C2C-3EDE7A7CE857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raw.Native.OpenGL", "src\Raw.Native.OpenGL\Raw.Native.OpenGL.csproj", "{3A4790C9-C6B1-43C2-AC7A-01182D3505F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raw.Example", "example\Raw.Example\Raw.Example.csproj", "{29682E6A-54D9-4B1F-869E-23DD7F658C76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{DEA9D887-3882-4855-B565-0EB8B8300988}"
+	ProjectSection(SolutionItems) = preProject
+		lib\glfw\glfw3.dll = lib\glfw\glfw3.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_items", "_items", "{0A060F9B-9A95-4071-8C39-A21CA5E475CD}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		Raw.sln.DotSettings = Raw.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EE0060C-0D86-4DF7-9C2C-3EDE7A7CE857} = {D178CCB6-C8B0-4B03-80DC-CBE7F26F108F}
+		{3A4790C9-C6B1-43C2-AC7A-01182D3505F9} = {D178CCB6-C8B0-4B03-80DC-CBE7F26F108F}
+		{29682E6A-54D9-4B1F-869E-23DD7F658C76} = {65E6B156-3748-450D-BBEC-9E93AC656DFB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE0060C-0D86-4DF7-9C2C-3EDE7A7CE857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE0060C-0D86-4DF7-9C2C-3EDE7A7CE857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE0060C-0D86-4DF7-9C2C-3EDE7A7CE857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE0060C-0D86-4DF7-9C2C-3EDE7A7CE857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4790C9-C6B1-43C2-AC7A-01182D3505F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4790C9-C6B1-43C2-AC7A-01182D3505F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4790C9-C6B1-43C2-AC7A-01182D3505F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4790C9-C6B1-43C2-AC7A-01182D3505F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29682E6A-54D9-4B1F-869E-23DD7F658C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29682E6A-54D9-4B1F-869E-23DD7F658C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29682E6A-54D9-4B1F-869E-23DD7F658C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29682E6A-54D9-4B1F-869E-23DD7F658C76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
