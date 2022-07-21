@@ -78,7 +78,7 @@ internal class Application : IApplication
         var windowWidth = (int)(screenWidth * 0.8f);
         var windowHeight = (int)(screenHeight * 0.8f);
 
-        _windowHandle = Glfw.CreateWindow(windowWidth, windowHeight, "Hello", IntPtr.Zero, IntPtr.Zero);
+        _windowHandle = Glfw.CreateWindow(windowWidth, windowHeight, "Raw.Example", IntPtr.Zero, IntPtr.Zero);
         if (_windowHandle == IntPtr.Zero)
         {
             _logger.Error("{Category}: Failed to create window", "GLFW");

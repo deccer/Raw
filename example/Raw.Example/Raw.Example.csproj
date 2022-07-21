@@ -17,6 +17,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\src\Raw.Native.Glfw\Raw.Native.Glfw.csproj" />
+      <ProjectReference Include="..\..\src\Raw.Native.OpenGL\Raw.Native.OpenGL.csproj" />
     </ItemGroup>
 
     <ItemGroup>
